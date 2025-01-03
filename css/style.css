@@ -229,7 +229,7 @@
   
   .footer-heading {
 	font-size: 24px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: white;
@@ -1225,7 +1225,7 @@ a.Gallery-link {
 		gap: 10px;
 	}
 	.inner-gallery-img {
-		width: 100%;
+		width: 98%;
 		display: flex;
 		gap :10px
 	}
@@ -1235,6 +1235,14 @@ a.Gallery-link {
 	img.gap-imag {
 		margin-bottom: 10px;
 	}
+	section.Gallery-section {
+		padding: 0 30px;
+	}
+	.service-link:hover {
+		background: #056B68; /* Hover background color */
+		color: #fff; /* Hover text color */
+	}
+	
   /* responsive */
   @media screen and (max-width: 2000px) {
   }
@@ -1267,12 +1275,16 @@ a.Gallery-link {
 	  font-family: "Poppins";
 	  font-size: 16px;
 	}
+	.Experience-sub ul li {
+		font-size: 17px;
+	}
   }
   
   @media screen and (max-width: 1200px) {
 	nav .links a:not(:has(img)) {
 	  padding: 5px;
 	}
+
 	.about-section {
 		max-height: 400px;
 	}
