@@ -1,18 +1,4 @@
-@font-face {
-	src: url("../font/Archivo-Bold.ttf");
-	font-family: "Archivo-Bold";
-  }
-  
-  @font-face {
-	src: url("../font/Archivo-Regular.ttf");
-	font-family: "Archivo-Regular";
-  }
-  
-  @font-face {
-	src: url("../font/Archivo-SemiBold.ttf");
-	font-family: "Archivo-SemiBold";
-  }
-  
+
   html {
 	width: 100%;
   }
@@ -269,7 +255,11 @@
   }
   
   .footer-widget a:hover {
-	text-decoration: underline;
+	color: #00B1AF;
+  }
+  .about-sub-2 a:hover{
+	background:#056B68;
+	color:#fff;
   }
   
   .Email-div {
@@ -302,7 +292,7 @@
   }
   .Radhesh-bnrsec {
 	background-position: center;
-	background-image: url("https://rubberplus.in/wordpress/wp-content/uploads/2024/12/Banner-background-img.png");
+	background-image: url(../image/Banner-background-img.avif);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
@@ -477,7 +467,7 @@
 	transform: translateY(-50%);
 	width: 30px;
 	height: 30px;
-	background-image: url("https://rubberplus.in/wordpress/wp-content/uploads/2024/12/flaticon-check-mark.png");
+	background-image: url(../image/flaticon-check-mark.webp);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1333,6 +1323,10 @@ a.Gallery-link {
 	.read-banercont a {
 	  font-size: 18px;
 	}
+	.main-div {
+		gap: 20px;
+		margin-bottom: 20px;
+	  }
 	.blog-study-conten h2 {
 	  font-size: 35px;
 	}
