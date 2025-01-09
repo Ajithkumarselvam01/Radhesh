@@ -440,7 +440,7 @@ section.Radhesh-bnrsec {
 
 .Radhesh-bnrsec {
 	background-position: center;
-	background-image: url("https://rubberplus.in/wordpress/wp-content/uploads/2024/12/Banner-background-img.png");
+	background-image: url(../image/Banner-background-img.avif);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
@@ -649,7 +649,7 @@ section.Experience {
 	transform: translateY(-50%);
 	width: 30px;
 	height: 30px;
-	background-image: url("https://rubberplus.in/wordpress/wp-content/uploads/2024/12/flaticon-check-mark.png");
+	background-image: url(../image/flaticon-check-mark.webp);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
