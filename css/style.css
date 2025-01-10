@@ -465,7 +465,7 @@ section.Radhesh-bnrsec {
 	position: relative;
 }
 
-.Banner-cont h2 {
+.Banner-cont h1 {
 	color: #fff;
 	font-family: roboto;
 	font-size: 38px;
@@ -626,7 +626,7 @@ section.Experience {
 }
 
 .Experience-sub.col-lg-8 {
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 }
 
@@ -638,7 +638,7 @@ section.Experience {
 	font-size: 20px;
 	font-family: "Poppins";
 	font-weight: 300;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .Experience-sub li::before {
