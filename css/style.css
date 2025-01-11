@@ -133,6 +133,7 @@ section {
 }
 .blog-listcont h2:hover{
 color:#00B1AF;
+}
 .service-btn a:before {
 	content: '';
 	position: absolute;
