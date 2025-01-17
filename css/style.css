@@ -131,9 +131,6 @@ section {
 	background-color: #00b1af;
 	z-index: -2;
 }
-.blog-listcont h2:hover{
-color:#00B1AF;
-}
 .service-btn a:before {
 	content: '';
 	position: absolute;
@@ -407,6 +404,10 @@ section.Radhesh-bnrsec {
 	font-weight: 500;
 	font-size: 25px;
 }
+.footer-widget a:hover{
+	text-decoration: none;
+	color:#00B1AF;
+}
 .about-sub-2 h2 {
 	font-size: 50px;
 	font-weight: 600;
@@ -436,6 +437,9 @@ section.Radhesh-bnrsec {
 	transition: all 0.1s;
 	margin: 0;
 }
+.blog-listcont h2:hover{
+color:#00B1AF;
+}
 .about-sub-2 .service-btn a:hover i {
 	transform: rotate(0deg);
 	padding-left: 5px;
@@ -445,6 +449,7 @@ section.Radhesh-bnrsec {
 	font-family: "Poppins";
 	font-size: 18px;
 	font-weight: 400;
+	line-height: 1.6;
 }
 .social-icons {
 	display: flex;
@@ -1334,7 +1339,7 @@ section.Gallery-section {
 	font-weight: 700;
 }
 .faq-question .number {
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: 700;
 	color: #9D96A8;
 	margin-right: 15px;
@@ -1344,7 +1349,7 @@ section.Gallery-section {
 	flex: 1;
 }
 .faq-question .toggle-icon {
-	font-size: 30px;
+	font-size: 28px;
 	background: #A0A0A0;
 	color: #fff;
 	border-radius: 50%;
@@ -1468,7 +1473,7 @@ section.home-page {
 .home-sec-3-sub h2 {
     color: #fff;
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 500;
     font-family: 'Poppins';
 }
@@ -1478,15 +1483,122 @@ section.home-page {
     font-weight: 400;
     font-family: 'Poppins';
 	margin-bottom: 10px;
+	line-height: 1.6;
 }
 .home-sec-3-sub li {
     color: #fff;
     list-style: unset;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     font-family: 'Poppins';
     font-weight: 400;
 }
+section.contact-us-banner {
+    background-color: #00B1AF;
+}
+.form-group.first-form input::placeholder {
+	color: #000;
+}
+.form-section button.submit-button {
+	width: 20%;
+	padding: 14px;
+	border-radius: 30px;
+}
+.form-section h2 {
+	font-family: 'Inter';
+    font-weight: 700;
+    font-size: 60px;
+}
+.form-section form.contact-form textarea#message ,.submit-button {
+	margin-top: 30px;
+}
+textarea#message::placeholder{
+	color: #000;
+}
+.form-section input {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    width: 33.1%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid;
+    background: none;
+    font-size: 20px;
+    color: #171717;
+	margin-right: 2px;
+}
+.form-section textarea#message {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #171717;
+    padding: 15px;
+    background: none;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.form-group.first-form {
+	margin-top: 30px;
+}
+.Contact-type-main {
+	display: flex;
+	gap: 20px;
+	width: 100%;
+}
+.Contact-type-sub {
+	width: 33.3%;
+	text-align: center;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Contact-type-sub img {
+	width: 60px;
+	margin-top: 20px;
+}
+.Contact-type-sub h4{
+	margin-top: 20px;
+}
+section.Contact-type {
+	margin-top: -150px;
+}
+section.contact-banner {
+	height: 400px;
+}
+.Contact-type-sub p {
+	font-weight: 400;
+	font-size: 16px;
+}
+select#appointment {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #171717;
+    padding: 15px;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #171717;
+}
+.main-form-cont {
+    padding: 50px 30px;
+	background-image: url(../image/Contact-form-img.png);
+}
+.form-group {
+    margin-top: 20px;
+}
+.submit-button a.btn {
+    padding: 15px 20px;
+    background: #00B1AF;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+	
 /* responsive */
 @media screen and (max-width: 2000px) {
 }
@@ -1583,6 +1695,9 @@ section.home-page {
 	.read-banercont a {
 		font-size: 18px;
    }
+   .faq-question .number {
+	font-size: 35px;
+}
 	.blog-study-conten h2 {
 		font-size: 35px;
    }
@@ -1742,6 +1857,13 @@ section.home-page {
 		display: block;
 		margin-top: 20px;
    }
+   .form-section input
+   {
+	width: 100%;
+   }
+   .form-group {
+    padding: 0;
+}
 	.faq-section h3 {
 		font-size: 35px;
    }
@@ -1864,6 +1986,9 @@ section.home-page {
    }
 }
 @media screen and (max-width: 767px) {
+	.form-group.half-width {
+		flex: 1 1 100%;
+	}
 	.footer-column {
 		flex: 1 1 100%;
 		margin-top: 30px;
