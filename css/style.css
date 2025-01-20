@@ -121,6 +121,9 @@ section {
 	padding: 12px 25px 10px;
 	border-radius: 0;
 }
+.form-contact-section {
+    width: 98%;
+}
 .service-btn a:after {
 	content: '';
 	position: absolute;
@@ -1540,6 +1543,7 @@ textarea#message::placeholder{
 }
 .form-group.first-form {
 	margin-top: 30px;
+	padding: 0 10px;
 }
 .Contact-type-main {
 	display: flex;
@@ -1692,6 +1696,9 @@ select#appointment {
    }
 }
 @media screen and (max-width: 1100px) {
+	.form-contact-section {
+    width: 100%;
+}
 	.read-banercont a {
 		font-size: 18px;
    }
