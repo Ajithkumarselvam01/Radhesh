@@ -121,9 +121,6 @@ section {
 	padding: 12px 25px 10px;
 	border-radius: 0;
 }
-.form-contact-section {
-    width: 98%;
-}
 .service-btn a:after {
 	content: '';
 	position: absolute;
@@ -1273,15 +1270,17 @@ a.Gallery-link {
 	gap: 10px;
 }
 .inner-gallery-img {
-	width: 98%;
-	display: flex;
-	gap: 10px 
+	width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    margin-top: 5px;
 }
 .inner-gallery-img img.mg-1 {
 	width: 50%;
 }
 img.gap-imag {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 section.Gallery-section {
 	padding: 0 0 50px;
@@ -1696,9 +1695,6 @@ select#appointment {
    }
 }
 @media screen and (max-width: 1100px) {
-	.form-contact-section {
-    width: 100%;
-}
 	.read-banercont a {
 		font-size: 18px;
    }
