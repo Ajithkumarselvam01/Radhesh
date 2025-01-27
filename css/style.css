@@ -1164,6 +1164,7 @@ section.About-us-banner {
 }
 .brdcrmb span {
 	color: #fff;
+	font-family: 'Poppins';
 }
 .brdcrmb .brdcrm_blistin:after {
 	position: absolute;
@@ -1495,8 +1496,17 @@ section.home-page {
     font-family: 'Poppins';
     font-weight: 400;
 }
+.contact-us-banner p {
+    color: #fff;
+    font-family: 'Poppins';
+    width: 75%;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
 section.contact-us-banner {
     background-color: #00B1AF;
+	flex-direction: column;
 }
 .form-group.first-form input::placeholder {
 	color: #000;
@@ -1573,7 +1583,7 @@ section.contact-banner {
 	font-weight: 400;
 	font-size: 16px;
 }
-select#appointment {
+select#appointment, select#appointment-1 {
     width: 100%;
     border: none;
     border-bottom: 1px solid #171717;
@@ -1991,6 +2001,10 @@ select#appointment {
 @media screen and (max-width: 767px) {
 	.form-group.half-width {
 		flex: 1 1 100%;
+	}
+	.contact-us-banner p {
+		width: 100%;
+		font-size: 18px;
 	}
 	.footer-column {
 		flex: 1 1 100%;
