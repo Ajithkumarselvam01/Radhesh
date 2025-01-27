@@ -386,7 +386,7 @@ section.Radhesh-bnrsec {
 	color: #fff;
 	font-weight: 400;
 	font-family: "Poppins";
-	font-size: 18px;
+	font-size: 20px;
 }
 .read-banercont a {
 	padding: 13px 15px;
@@ -447,7 +447,7 @@ color:#00B1AF;
 .about-sub-2 p.Conent-about {
 	color: #7d7d7d;
 	font-family: "Poppins";
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.6;
 }
@@ -481,7 +481,7 @@ color:#00B1AF;
 	margin-bottom: 10px;
 }
 .Specializations h2 {
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: 600;
 	font-family: "Poppins";
 	color: #121521;
@@ -506,7 +506,7 @@ section.Experience {
 	align-items: center;
 }
 .Experience-sub h2 {
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: 600;
 	font-family: "Poppins";
 	color: #121521;
@@ -880,7 +880,7 @@ p.service-subtitle {
 .testimonial-content p {
 	font-family: "Poppins";
 	padding: 10px 0;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 0.5px;
 }
 .author {
@@ -938,7 +938,7 @@ p.service-title-blog {
 	font-family: "Inter";
 }
 h2.service-title-h2-blog {
-	font-size: 38px;
+	font-size: 45px;
 	color: #000;
 	font-family: "Inter";
 	font-weight: 600;
@@ -1018,10 +1018,10 @@ section.healthcare {
 	padding: 20px 0;
 	font-family: "Poppins";
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 45px;
 }
 .healthcare-p {
-	font-size: 22px;
+	font-size: 20px;
 	font-family: "Poppins";
 	font-weight: 400;
 }
@@ -2138,7 +2138,7 @@ select#appointment, select#appointment-1 {
 	.testimonial-content p {
 		font-family: "Poppins";
 		padding: 10px 0;
-		font-size: 15px;
+		font-size: 16px;
    }
 	h2.service-title-h2 {
 		font-size: 30px;
