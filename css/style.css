@@ -1534,7 +1534,7 @@ textarea#message::placeholder{
     width: 33.1%;
     padding: 15px;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
     background: none;
     font-size: 20px;
     color: #171717;
@@ -1543,7 +1543,7 @@ textarea#message::placeholder{
 .form-section textarea#message {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #171717;
+    border-bottom: 1px solid #cccccc;
     padding: 15px;
     background: none;
     font-size: 20px;
@@ -1586,7 +1586,7 @@ section.contact-banner {
 select#appointment, select#appointment-1 {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #171717;
+    border-bottom: 1px solid #cccccc;
     padding: 15px;
     background: none;
     outline: none;
