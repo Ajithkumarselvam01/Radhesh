@@ -89,6 +89,9 @@ section {
 	background-color: #FFFFFF;
 	z-index: -2;
 }
+.footer-column {
+    padding: 0 !important;
+}
 .common-btn a:before {
 	content: '';
 	position: absolute;
