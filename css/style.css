@@ -1666,6 +1666,9 @@ select#appointment, select#appointment-1 {
 .service-detail-3-sub p {
     font-size: 18px;
 }
+.footer-row {
+    grid-template-columns: 2fr 2fr;
+}
 }
 @media screen and (max-width: 1250px) {
 	nav .links a:not(:has(img)) {
@@ -1674,11 +1677,7 @@ select#appointment, select#appointment-1 {
 	.about-section {
 		max-height: 400px;
    }
-   .footer-row {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 2fr 2fr;
-}
+  
 	.post-title p {
 		font-size: 18px;
    }
