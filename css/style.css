@@ -1667,7 +1667,7 @@ select#appointment, select#appointment-1 {
     font-size: 18px;
 }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 	nav .links a:not(:has(img)) {
 		padding: 5px;
    }
