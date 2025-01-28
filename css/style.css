@@ -378,7 +378,7 @@ section.Radhesh-bnrsec {
 .Banner-cont h1 {
 	color: #fff;
 	font-family: roboto;
-	font-size: 45px;
+	font-size: 38px;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
@@ -880,7 +880,7 @@ p.service-subtitle {
 .testimonial-content p {
 	font-family: "Poppins";
 	padding: 10px 0;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 0.5px;
 }
 .author {
@@ -1395,7 +1395,7 @@ section.Why-choose-us {
 	padding: 50px 30px;
 }
 .why-choose-us-sub-1 h2 {
-	font-size: 40px;
+	font-size: 45px;
 	font-family: outfit;
 	font-weight: 600;
 }
@@ -1610,6 +1610,11 @@ select#appointment, select#appointment-1 {
     font-weight: 500;
     font-size: 18px;
 }
+.footer-row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1.7fr 1.7fr 1.4fr 1fr;
+}
 
 	
 /* responsive */
@@ -1625,6 +1630,9 @@ select#appointment, select#appointment-1 {
 	nav .links a:not(:has(img)) {
 		font-size: 16px;
    }
+   h4.footer-heading {
+    font-size: 20px;
+}
 	.why-choose-us-sub-1 p {
 		font-size: 18px;
    }
@@ -1666,6 +1674,11 @@ select#appointment, select#appointment-1 {
 	.about-section {
 		max-height: 400px;
    }
+   .footer-row {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 2fr;
+}
 	.post-title p {
 		font-size: 18px;
    }
@@ -2006,6 +2019,9 @@ select#appointment, select#appointment-1 {
 		width: 100%;
 		font-size: 18px;
 	}
+	.footer-row {
+        grid-template-columns: 2fr;
+    }
 	.footer-column {
 		flex: 1 1 100%;
 		margin-top: 30px;
