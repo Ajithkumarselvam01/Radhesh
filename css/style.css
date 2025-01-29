@@ -89,9 +89,6 @@ section {
 	background-color: #FFFFFF;
 	z-index: -2;
 }
-.footer-column {
-    padding: 0 !important;
-}
 .common-btn a:before {
 	content: '';
 	position: absolute;
@@ -419,7 +416,7 @@ section.Radhesh-bnrsec {
 }
 .about-sub-2 p.green-div {
 	width: 90%;
-	padding: 10px 0;
+	padding:  0;
 	color: #056b68;
 	font-family: "Poppins";
 	font-weight: 600;
@@ -1618,7 +1615,9 @@ select#appointment, select#appointment-1 {
     gap: 10px;
     grid-template-columns: 1.7fr 1.7fr 1.4fr 1fr;
 }
-
+.footer-column {
+    padding: 0;
+}
 	
 /* responsive */
 @media screen and (max-width: 2000px) {
