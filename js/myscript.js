@@ -43,20 +43,19 @@ $(function() {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const faqItems = document.querySelectorAll(".faq-singular");
+$(document).ready(function () {
+    // Auto-expand the first FAQ item
+    $(".faqs-container .faq-singular:first").addClass("active").children(".faq-answer").slideDown();
 
-  faqItems.forEach(function(faq) {
-      faq.addEventListener("click", function() {
-          // Collapse other items
-          faqItems.forEach(item => {
-              if (item !== faq) {
-                  item.classList.remove("active");
-              }
-          });
-
-          // Toggle clicked item
-          faq.classList.toggle("active");
-      });
+    // FAQ click toggle functionality
+    $(".faq-question").on("click", function () {
+      const parent = $(this).parent();
+      if (parent.hasClass("active")) {
+        parent.removeClass("active").children(".faq-answer").slideUp();
+      } else {
+        $(".faq-singular.active .faq-answer").slideUp();
+        $(".faq-singular").removeClass("active");
+        parent.addClass("active").children(".faq-answer").slideDown();
+      }
+    });
   });
-});
