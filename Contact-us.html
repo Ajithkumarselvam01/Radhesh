@@ -105,36 +105,29 @@
             <form action="/submit" method="post" class="contact-form">
                     <div class="form-group first-form row">
                         <!-- Name field: only letters allowed -->
-                        <input type="text" class="col-lg-4" id="name" name="name" required placeholder="Your Name" style="outline: none;"
+                        <input type="text" class="col-lg-4" id="name" name="name*" required placeholder="Your Name" style="outline: none;"
                                title="Enter Your Name">
                         <!-- Phone field: only numbers allowed -->
-                        <input type="tel"  class="col-lg-4" id="phone" name="phone" required placeholder="Phone Number" style="outline: none;"
+                        <input type="tel"  class="col-lg-4" id="phone" name="phone*" required placeholder="Phone Number" style="outline: none;"
                                title="Enter Phone Number">
                                   <!-- Email field: standard HTML5 email pattern -->
-                        <input type="email" class="col-lg-4" id="email" name="email" required placeholder="Email Address" style="outline: none;" title="Enter Email Address">
+                        <input type="email" class="col-lg-4" id="email" name="email*" required placeholder="Email Address" style="outline: none;" title="Enter Email Address">
     
                     </div>
                 <div class="row">
-                  <div class="form-group col-lg-6">
-                    <select id="appointment" name="appointment" required>
-                        <option value="">Subject</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
-                    </select>
-                  </div>
-                  <div  class="form-group col-lg-6">
+                  <div  class="form-group col-lg-12">
                     <select id="appointment-1" name="appointment" required>
-                        <option value=""> Appointment</option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
+                        <option value="">Book Your Appointment</option>
+                        <option value="option1">Tue (04:30 PM - 06:30 PM)</option>
+                        <option value="option2">Sat (10:00 AM - 04:00 PM)</option>
                     </select>
                   </div>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" rows="3" required placeholder="Question" style="outline: none;" title="Enter Message"></textarea>
+                    <textarea id="message" name="message" rows="3" required placeholder="Query" style="outline: none;" title="Enter Message"></textarea>
                 </div>
            <div class="submit-button">
-            <a href="" class="btn">Leave us a Message <i
+            <a href="" class="btn">Submit <i
                 class="fa-solid fa-arrow-right "></i></a>
            </div>
             </form>
