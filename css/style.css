@@ -1698,6 +1698,10 @@ a.btn.submit-class {
 .footer-column {
     padding: 0;
 }
+.main-div-book-mob p {
+    font-size: 20px;
+    color: #fff;
+}
 	
 /* responsive */
 @media screen and (max-width: 2000px) {
@@ -2177,6 +2181,13 @@ a.btn.submit-class {
 	.about-sub-2 .service-btn {
 		width: 35%;
    }
+   p.service-btn.col-2.service-new {
+    width: 100%;
+}
+.form-section h2 {
+    font-size: 30px;
+
+}
 
 }
 @media screen and (max-width: 600px) {
