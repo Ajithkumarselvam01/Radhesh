@@ -1638,7 +1638,7 @@ select#appointment-1,   input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #cccccc;
-    padding: 15px;
+    padding: 15px 0;
     background: none;
     outline: none;
     font-size: 20px;
@@ -1673,6 +1673,7 @@ button.btn.submit-class {
 }
 .form-group {
     margin-top: 20px;
+	padding:0;
 }
 .submit-class a {
     padding: 10px 20px;
