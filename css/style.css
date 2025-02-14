@@ -557,7 +557,7 @@ section.Experience {
 }
 .experience-item p {
     color: #121521;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Poppins';
     font-weight: 500;
     line-height: 30px;
@@ -1659,7 +1659,6 @@ a.service-link {
     margin-bottom: 10px;
 	font-family: 'Poppins';
 }
-}
 .why-choose-us-sub-1 h3 {
     margin-bottom: 20px;
 	font-family: 'Poppins';
@@ -2258,7 +2257,9 @@ a.btn.submit-class {
 	h2.service-title-h2 {
 		font-size: 35px;
    }
-   
+   section.Experience {
+	background: #000;
+}
 
 	.main-div-book-mob h2 {
 		font-size: 30px;
