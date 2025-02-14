@@ -428,7 +428,7 @@ section.Radhesh-bnrsec {
 	color: #fff;
 	font-weight: 400;
 	font-family: "Poppins";
-	font-size: 20px;
+	font-size: 18px;
 }
 .read-banercont a {
 	padding: 13px 15px;
@@ -489,7 +489,7 @@ color:#00B1AF;
 .about-sub-2 p.Conent-about {
 	color: #7d7d7d;
 	font-family: "Poppins";
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.6;
 }
@@ -543,8 +543,7 @@ section.About-myself {
 	padding: 50px 30px;
 }
 section.Experience {
-	padding: 50px 0;
-	background-image: url('../image/Experience-background-img.avif');
+	padding: 50px
 }
 .Experience-main.row {
 	align-items: center;
@@ -555,10 +554,9 @@ section.Experience {
 	font-family: "Poppins";
 	color: #121521;
 	padding: 20px 0;
-	color:#fff;
 }
 .experience-item p {
-    color: #fff;
+    color: #121521;
     font-size: 22px;
     font-family: 'Poppins';
     font-weight: 500;
@@ -592,14 +590,14 @@ section.Experience {
 	position: relative;
 	padding-left: 30px;
 	line-height: 1.5;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Poppins";
 	font-weight: 300;
 	margin-bottom: 10px;
-	color:#fff;
+    color: #121521;
 }
 .main-div-book p {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     font-family: 'Poppins';
     width: 90%;
@@ -639,7 +637,7 @@ h2.service-title-h2 {
 	line-height: 1.6;
 	color: #fff;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Poppins";
 }
 p.service-subtitle {
@@ -676,7 +674,7 @@ p.service-subtitle {
 }
 .service-con li {
     color: #7D7D7D;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     list-style: disc;
     font-family: 'Poppins';
@@ -821,7 +819,7 @@ p.service-subtitle {
 	font-weight: 500;
 }
 .blog-study-conten p {
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: 30px;
 	width: 90%;
 	color: #7d7d7d;
@@ -880,7 +878,7 @@ img.practo {
 .contact-header a.btn {
     color: #fff; 
     background: #00B1AF; 
-    font-size: 22px; 
+    font-size: 20px; 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -961,7 +959,7 @@ color:#00B1AF;
 	font-family: "Poppins";
 	font-weight: 400;
 	width: 90%;
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
 	padding-top: 10px;
 }
@@ -1121,7 +1119,7 @@ section.healthcare {
 	font-size: 45px;
 }
 .healthcare-p {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Poppins";
 	font-weight: 400;
 }
@@ -1412,7 +1410,7 @@ section.Gallery-section {
 }
 .faq-section p {
 	text-align: left;
-	font-size: 20px;
+	font-size: 18px;
 	color: #000;
 	margin-bottom: 30px;
 	font-family: 'Poppins';
@@ -1434,7 +1432,7 @@ section.Gallery-section {
 .faq-question {
 	display: flex;
 	align-items: center;
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	color: #000;
 	position: relative;
@@ -1471,7 +1469,7 @@ section.Gallery-section {
 .faq-answer {
 	display: none;
    /* Hide by default */
-	font-size: 20px;
+	font-size: 18px;
 	color: #5A5365;
 	margin-top: 15px;
 	padding-left: 40px;
@@ -1503,7 +1501,7 @@ section.Why-choose-us {
 	padding: 20px;
 }
 .why-choose-us-sub-1 p {
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 300;
 	font-family: 'Outfit';
 }
@@ -1529,7 +1527,7 @@ section.General-Orthopedics {
 }
 .General-Orthopedics-sub-1 p {
 	color: #fff;
-	font-size: 20px;
+	font-size: 18px;
 	width: 80%;
 	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 10px;
@@ -1546,7 +1544,7 @@ section.service-detail-3 {
     font-weight: 500;
 }
 .service-detail-3-sub p {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     font-weight: 400;
     font-family: 'Outfit';
@@ -1582,7 +1580,7 @@ section.home-page {
 }
 .home-sec-3-sub p {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins';
 	margin-bottom: 10px;
@@ -1601,7 +1599,7 @@ section.home-page {
     font-family: 'Poppins';
     width: 75%;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
 }
 section.contact-us-banner {
@@ -1684,7 +1682,7 @@ select#appointment-1,   input {
 	padding: 15px 0;
     background: none;
     outline: none;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins';
     font-weight: 400;
     color: #171717;
