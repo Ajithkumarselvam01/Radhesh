@@ -33,7 +33,7 @@
 		w.gbwawc = {
 			url: u,
 			options: {
-				waId: "+91 7676512807",
+				waId: "+91 6369344539",
 				siteName: "Dr. Radhesh R Menon",
 				siteTag: "Usually replies within a day",
 				siteLogo: "https://rubberplus.in/wp-content/uploads/2025/02/Whatapp-logu.png",
@@ -41,7 +41,7 @@
 				triggerMessage: "Enquire Now",
 				welcomeMessage: "\"Hello! Welcome to Dr. Radhesh R Menon",
 				brandColor: "#25D366",
-				messageText: "How can we assist you today? Choose an Option",
+				messageText: "How can we assist you today? You Choose an Option",
 				replyOptions: ['Upper Limb Surgery', 'Orthopaedics & Sports Medicine', 'Reconstructive Microsurgery'],
 			},
 		};
@@ -53,9 +53,6 @@
 	})(window, document, "script", "https://waw.gallabox.com");
 	</script>
 </head>
-<style>
-
-</style>
 <body>
 	<header>
 		<!-- NAV_BAR_SECTION START -->
@@ -543,10 +540,10 @@
 					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
 					<div class="btn-div-book">
 						<div class="btn-div-sub">
-							<a><i class="fa-solid fa-phone"></i> Book Now</a>
+							<a data-bs-toggle="modal" data-bs-target="#Bookingform"><i class="fa-solid fa-phone"></i> Book Now</a>
 						</div>
 						<div class="btn-div-sub">
-							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+							<a href="https://wa.me/916369344539?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20the%20admission%20process%20and%20details%20of%20the%20school." class="whatsapp-float-1" aria-label="Chat with us via WhatsApp"><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
 						</div>
 					</div>
 				</div>
@@ -561,10 +558,10 @@
 					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
 					<div class="btn-div-book-mob">
 						<div class="btn-div-sub-mob">
-							<a class="nav-link--mob" href="#"><i class="fa-solid fa-phone" style="transform: translateX(-5px); "></i> Book Now</a>
+							<a class="nav-link--mob" data-bs-toggle="modal" data-bs-target="#Bookingform"><i class="fa-solid fa-phone" style="transform: translateX(-5px); "></i> Book Now</a>
 						</div>
 						<div class="btn-div-sub-mob">
-							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+							<a href="https://wa.me/916369344539?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20the%20admission%20process%20and%20details%20of%20the%20school." class="whatsapp-float-1" aria-label="Chat with us via WhatsApp"><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
 						</div>
 					</div>
 				</div>
@@ -656,6 +653,77 @@
 	</footer>
 	<div class="copyright-section">
 		<p>Copyrights © 2025 All Rights Reserved</p>
+	</div>
+	<div class="modal fade" id="Bookingform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Query Form</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form action="/submit" method="post" class="contact-form">
+						<div class="form-group first-form row">
+							<!-- Name Field -->
+							<div class="col-md-12 mb-3">
+								<div class="input-group">
+									<span class="input-group-text input-group-text-custom">
+										<i class="fas fa-user"></i>
+									</span>
+									<input type="text" class="form-control" id="name-1" name="name" required 
+										placeholder="Your Name" aria-label="Your Name" title="Enter Your Name">
+								</div>
+							</div>
+					
+							<!-- Phone Field -->
+							<div class="col-md-12 mb-3">
+								<div class="input-group">
+									<span class="input-group-text input-group-text-custom">
+										<i class="fas fa-phone"></i>
+									</span>
+									<input type="tel" class="form-control" id="phone-1" name="phone" required 
+										placeholder="Phone Number" aria-label="Phone Number" 
+										pattern="[0-9]{10,15}" title="Enter a valid phone number">
+								</div>
+							</div>
+						</div>
+					
+						<div class="form-group first-form row">
+							<!-- Email Field -->
+							<div class="col-md-12 mb-3">
+								<div class="input-group">
+									<span class="input-group-text input-group-text-custom">
+										<i class="fas fa-envelope"></i>
+									</span>
+									<input type="email" class="form-control" id="email-1" name="email" required 
+										placeholder="Email Address" aria-label="Email Address" title="Enter Email Address">
+								</div>
+							</div>
+					
+							<!-- Select Field -->
+							<div class="col-md-12 mb-3">
+								<div class="input-group">
+									<span class="input-group-text input-group-text-custom">
+										<i class="fas fa-list"></i>
+									</span>
+									<select class="form-control" id="select-1" name="option" required>
+										<option value="" disabled selected>Select an Option</option>
+										<option value="inquiry">General Inquiry</option>
+										<option value="support">Customer Support</option>
+										<option value="feedback">Feedback</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					
+						<div class="submit-button text-center w-100 mt-3">
+							<button type="submit" class="btn submit-class">Submit</button>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- <script type="text/javascript" src="js/jquery-3.6.4.slim.min.js"></script> -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
