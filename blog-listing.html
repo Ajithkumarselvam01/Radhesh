@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Radhesh Blog Listing </title>
+	<!-- Required css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.min.css">
+	<!-- Font Awesome CDN -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Coiny&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script>
+	(function(w, d, s, u) {
+		w.gbwawc = {
+			url: u,
+			options: {
+				waId: "+91 7676512807",
+				siteName: "Dr. Radhesh R Menon",
+				siteTag: "Usually replies within a day",
+				siteLogo: "https://rubberplus.in/wp-content/uploads/2025/02/Whatapp-logu.png",
+				widgetPosition: "RIGHT",
+				triggerMessage: "Enquire Now",
+				welcomeMessage: "\"Hello! Welcome to Dr. Radhesh R Menon",
+				brandColor: "#25D366",
+				messageText: "How can we assist you today? Choose an Option",
+				replyOptions: ['Upper Limb Surgery', 'Orthopaedics & Sports Medicine', 'Reconstructive Microsurgery'],
+			},
+		};
+		var h = d.getElementsByTagName(s)[0],
+			j = d.createElement(s);
+		j.async = true;
+		j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+		h.parentNode.insertBefore(j, h);
+	})(window, document, "script", "https://waw.gallabox.com");
+	</script>
+	<!-- custom css  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<!-- NAV_BAR_SECTION START -->
+		<nav>
+			<input type="checkbox" id="nav-toggle" />
+			<div class="logo">
+				<a href="">
+					<img src="image/Radhesh-Logo.webp" alt="Radhesh Logo" title="Radhesh Logo" />
+				</a>
+			</div>
+			<ul class="links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#work">About  Dr. Radhesh</a></li>
+				<li class="services-dropdown">
+					<a href="#about">Services </a>
+					<ul class="quick-links">
+						<li><a href="#">Upper Limb Surgery</a></li>
+						<li><a href="#">Orthopaedics & Sports Medicine</a></li>
+						<li><a href="#">Reconstructive Microsurgery</a></li>
+					</ul>
+				</li>
+			
+				<li><a href="">Blog</a></li>
+				<li class="contact-btn btn"><a href="">Contact us</a></li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+		</nav>
+		<!-- NAV_BAR_SECTION END -->
+	</header>
+	<!-- Banner section  -->
+	<section class="blog-banner ">
+		<div class="blog-mainbanner">
+			<div class="banner-about-cont">
+				<h1>knowledge Centre</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa.</p>
+			</div>
+			<div class="banner-blogimg">
+				<img class="desktop-banner" src="image/blog-banner.avif" alt="Doctor" title="Doctor">
+				<img class="mobile-banner" src="image/blog-mobbanner.avif" alt="Doctor" title="Doctor">
+			</div>
+		</div>
+	</section>
+	<!-- Banner section end -->
+	<!-- Blog List section -->
+	<section class="blog-listing">
+		<div class="container">
+			<div class="blog-listmain">
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list1.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list2.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list3.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list4.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list5.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div class="blog-listinr">
+					<div class="blog-listleft">
+						<div class="blog-date">
+							<p>01 DEC, 2024</p>
+						</div>
+						<div class="blog-listimg">
+							<a href="">
+								<img src="./image/blog-list1.avif" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="blog-listryt">
+						<a href="">
+							<div class="blog-listcont">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis est sed ante luctus cursus nec vitae massa. Aliquam pulvinar odio sed tempus facilisis. Vivamus venenatis eros commodo, aliquam erat consequat, pulvinar risus.</p>
+							</div>
+							<ul>
+								<li><a href="">Read More</a></li>
+							</ul>
+						</a>
+					</div>
+				</div>
+				<!--  -->
+				<div id="pagination-container"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Healthcare Timing section start -->
+	<section class="healthcare blog-listtime">
+		<div class="container">
+			<h2>Consulting Clinic</h2>
+			<p class="text-center healthcare-p"> Below is a list of healthcare centers with their addresses, contact details, and consultation timings to help you plan your visits conveniently. </p>
+			<div class="card-healthcare">
+				<!-- Card 1 -->
+				<div class="card">
+					<h4>Fostr Helathcare</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing"> Timing</h5>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Tuesday | Thursday </p>
+								<p> 04:30 PM - 06:30 PM</p>
+							</div>
+						</div>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Saturday</p>
+								<p> 10:00 AM - 04:00 PM</p>
+							</div>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Marathalli</p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+				<!-- Card 2 -->
+				<div class="card">
+					<h4>Aarogya Hastha Hospital</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing "> Timing</h5>
+						<div class="timing-div-p">
+							<p>Monday - Friday</p>
+							<p> 08:00 AM - 11:00 AM</p>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Kasavanhalli </p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+				<!-- Card 3 -->
+				<div class="card">
+					<h4>Fostr Healthcare</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing"> Timing</h5>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Monday - Friday</p>
+								<p> 11:30 AM - 02:00 PM | 03:30 PM - 09:00 PM</p>
+								<p> </p>
+							</div>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Sarjapur Road</p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Healthcare Timing section end -->
+	<!-- book your medical start -->
+	<section class="book-you">
+		<div class="container">
+			<div class="main-book-div">
+				<div class="main-div-book">
+					<h2>Book an appointment </h2>
+					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
+					<div class="btn-div-book">
+						<div class="btn-div-sub">
+							<a><i class="fa-solid fa-phone"></i> Book Now</a>
+						</div>
+						<div class="btn-div-sub">
+							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+						</div>
+					</div>
+				</div>
+				<div class="book-img-div">
+					<img src="image/Book-now-doctor-img.avif" alt="Book" title="Book">
+				</div>
+			</div>
+			<!-- mob -->
+			<div class="main-book-div-mob">
+				<div class="main-div-book-mob">
+					<h2>Book an appointment </h2>
+					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
+					<div class="btn-div-book-mob">
+						<div class="btn-div-sub-mob">
+							<a class="nav-link--mob" href="#"><i class="fa-solid fa-phone" style="transform: translateX(-5px); "></i> Book Now</a>
+						</div>
+						<div class="btn-div-sub-mob">
+							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+						</div>
+					</div>
+				</div>
+				<div class="book-img-div-mob">
+					<img src="image/Doctor-image.avif" alt="book" title="book">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- book your medical end -->
+	<!-- footer section -->
+	<footer class="footer-section">
+		<div class="container footer-container">
+			<div class="footer-content">
+				<div class="footer-row ">
+					<div class="footer-column footer-1 ">
+						<div class="footer-widget">
+							<div class="footer-text ">
+								<div class="footer-widget">
+									<h4 class="footer-heading">Services Offered</h4>
+									<ul class="quick-links">
+										<li><a href="#">Upper Limb Surgery </a></li>
+										<li><a href="#">Orthopaedics & Sports Medicine</a></li>
+										<li><a href="#">Reconstructive Microsurgery</a></li>
+										<!-- <li><a href="#">Joint Replacement surgeries of Hand & Wrist</a></li>
+                            <li><a href="#">Nerve Decompression & transfer surgeries</a></li>
+                            <li><a href="#">Tendon repairs & transfers</a></li>
+                            <li><a href="#">Replantation of amputated digits</a></li>
+                            <li><a href="">Thumb / Digit reconstructions and toe transfer</a></li>
+                            <li><a href="">Congenital hand differences</a></li> -->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-2 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">Contact Us</h4>
+							<div class="footer-location">
+								<div class="Email-div">
+									<i class="fa-solid fa-location-dot" style="color: #fff;"></i>
+									<h5>CONTACT US</h5>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices finibus odio ut rhoncus.</p>
+							</div>
+							<div class="footer-phone">
+								<div class="Email-div">
+									<i class="fa-solid fa-phone" style="color: #fff;"></i>
+									<h5>Call for Appointment</h5>
+								</div>
+								<a href="tel:+917676512807" class="tel">+91 7676512807</a>
+							</div>
+							<div class="footer-email">
+								<div class="Email-div">
+									<i class="fa-solid fa-envelope" style="color: #fff;"></i>
+									<h5>Email</h5>
+								</div>
+								<a href="mailto:radhesh.menonr@gmail.com">radhesh.menonr@gmail.com</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-3 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">Map</h4>
+							<div class="Map-div">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1107299619716!2d77.67311507454556!3d12.900600816432005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae132a0bbeb64b%3A0x626c13b98813a8a3!2zQUFST0dZQSBIQVNUSEEgSE9TUElUQUxTIOCyhuCysOCzi-Cyl-CzjeCyryDgsrngsrjgs43gsqQg4LK54LK-4LK44LON4LKq4LK_4LKf4LKy4LON4LK44LON!5e0!3m2!1sen!2sin!4v1737609744187!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-4 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">fOLLOW US ON</h4>
+							<div class="social-icons">
+								<a href="https://facebook.com" target="_blank">
+									<img src="image/facebook-logu.webp" alt="Facebook" title="Facebook" />
+								</a>
+								<a href="https://www.practo.com/Bangalore/doctor/radhesh-r-menon-orthopedist" target="_blank">
+									<img src="image/Practo-img.avif" class="practo" alt="practo" title="practo" />
+								</a>
+								<a href="https://instagram.com" target="_blank">
+									<img src="image/instagram-logu.webp" alt="Instagram" title="Instagram" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright-section">
+		<p>Copyrights © 2024 All Rights Reserved</p>
+	</div>
+	<!-- <script type="text/javascript" src="js/jquery-3.6.4.slim.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/simplePagination.js"></script>
+	<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+<style>
+.banner-blogimg .mobile-banner {
+	display: none;
+}
+
+.blog-banner .blog-mainbanner {
+	position: relative;
+}
+
+section.blog-banner {
+	padding: 0;
+}
+
+.blog-mainbanner .banner-about-cont {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 20%;
+	color: #fff;
+}
+
+.banner-about-cont p {
+	color: #fff;
+	font-family: "Poppins";
+	font-weight: 400;
+	width: 80%;
+	margin: auto;
+}
+
+.blog-listinr {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	border-bottom: 1px solid #636363;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.blog-listleft .blog-date {
+	width: 20%;
+}
+
+.blog-listinr .blog-listleft {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	width: 55%;
+	gap: 5px;
+}
+
+.blog-listinr .blog-listryt {
+	width: 45%;
+	display: grid;
+	align-items: center;
+}
+
+.blog-listimg a {
+	width: 100%;
+}
+
+.blog-listimg img {
+	height: 300px;
+	object-fit: cover;
+}
+
+.blog-listimg {
+	width: 80%;
+	object-position: center;
+}
+
+.blog-listcont h2 {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 28px;
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.blog-listcont p {
+	font-family: "Poppins";
+	font-weight: 400;
+	line-height: 30px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	position: relative;
+	z-index: 99;
+	overflow: hidden;
+	color: #000;
+	font-size: 16px;
+}
+
+.blog-date p {
+	font-family: "DM Sans", serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.blog-listryt li a {
+	color: #00B1AF;
+}
+
+.blog-listryt li {
+	list-style: circle;
+	color: #00B1AF;
+	font-size: 18px;
+	font-family: "Poppins";
+	font-weight: 500;
+}
+
+section.blog-listing {
+	overflow: visible;
+}
+
+.blog-listmain {
+	background: #fff;
+	box-shadow: 0px 0px 18px 0px #00000012;
+	padding: 50px 30px;
+	transform: translateY(-15rem);
+	position: relative;
+	z-index: 4;
+}
+
+.blog-listmain #pagination-container ul {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 20px;
+	padding-top: 30px;
+	align-items: center;
+}
+
+.blog-listmain #pagination-container ul li {
+	list-style: none;
+}
+
+.blog-listmain #pagination-container li.active .current {
+	color: #00B1AF;
+	border: 2px solid #00B1AF;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 2px 10px;
+	border-radius: 3px;
+}
+
+.blog-listmain #pagination-container li.active .current.prev,
+.blog-listmain #pagination-container li.active .current.next {
+	border: 0;
+	padding: 0;
+}
+
+.blog-listmain #pagination-container li a {
+	font-family: "DM Sans", serif;
+	color: #817C7C;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.blog-listmain #pagination-container li i {
+	color: #00B1AF;
+}
+
+.healthcare.blog-listtime {
+	margin-top: -10rem;
+}
+
+@media (max-width: 1300px) {
+	.blog-listmain {
+		transform: translateY(-10rem);
+		padding: 40px 20px;
+	}
+
+	.blog-listimg {
+		width: 75;
+		object-position: center;
+	}
+
+	.blog-listleft .blog-date {
+		width: 25%;
+	}
+}
+
+@media (max-width: 990px) {
+	.blog-listinr {
+		flex-wrap: wrap;
+	}
+
+	.blog-listinr .blog-listleft {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		gap: 20px;
+	}
+
+	.blog-listleft .blog-date {
+		width: 100%;
+		text-align: right;
+	}
+
+	.blog-listinr .blog-listryt {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.blog-listleft>div {
+		width: 100%;
+	}
+
+	.blog-listimg img {
+		height: auto;
+		object-fit: cover;
+	}
+
+	.blog-listmain {
+		transform: unset;
+	}
+}
+
+@media (max-width: 990px) {
+	.blog-listcont h2 {
+		font-family: "Poppins";
+		font-weight: 600;
+		font-size: 22px;
+		margin-bottom: 15px;
+		color: #000;
+	}
+
+	.blog-listcont p {
+		font-size: 16px;
+		line-height: normal;
+	}
+
+	.blog-listinr .blog-listleft,
+	.blog-listinr .blog-listryt,
+	.blog-listinr {
+		gap: 10px;
+	}
+
+	.healthcare.blog-listtime {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.desktop-banner {
+		display: none;
+	}
+
+	.banner-blogimg .mobile-banner {
+		display: block;
+	}
+
+	.blog-listmain {
+		transform: translateY(-10rem);
+		padding: 40px 10px;
+	}
+}
+
+@media (max-width: 375px) {
+	.blog-listmain {
+		transform: translateY(-8rem);
+		padding: 40px 10px;
+	}
+}
+</style>
+<script>
+var items = $(".blog-listmain .blog-listinr");
+var numItems = items.length;
+var perPage = 5;
+items.slice(perPage).hide();
+$('#pagination-container').pagination({
+	items: numItems,
+	itemsOnPage: perPage,
+	prevText: "&#8592;", // Left arrow ←
+	nextText: "&#8594;", // Right arrow →
+	onPageClick: function(pageNumber) {
+		var showFrom = perPage * (pageNumber - 1);
+		var showTo = showFrom + perPage;
+		items.hide().slice(showFrom, showTo).show();
+	}
+});
+</script>
+
+</html>

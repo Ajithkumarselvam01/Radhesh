@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Radhesh Service Page</title>
+	<!-- Required css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<!-- Font Awesome CDN -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<!-- custom css  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+	(function(w, d, s, u) {
+		w.gbwawc = {
+			url: u,
+			options: {
+				waId: "+91 7676512807",
+				siteName: "Dr. Radhesh R Menon",
+				siteTag: "Usually replies within a day",
+				siteLogo: "https://rubberplus.in/wp-content/uploads/2025/02/Whatapp-logu.png",
+				widgetPosition: "RIGHT",
+				triggerMessage: "Enquire Now",
+				welcomeMessage: "\"Hello! Welcome to Dr. Radhesh R Menon",
+				brandColor: "#25D366",
+				messageText: "How can we assist you today? Choose an Option",
+				replyOptions: ['Upper Limb Surgery', 'Orthopaedics & Sports Medicine', 'Reconstructive Microsurgery'],
+			},
+		};
+		var h = d.getElementsByTagName(s)[0],
+			j = d.createElement(s);
+		j.async = true;
+		j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+		h.parentNode.insertBefore(j, h);
+	})(window, document, "script", "https://waw.gallabox.com");
+	</script>
+</head>
+
+<body>
+	<header>
+		<!-- NAV_BAR_SECTION START -->
+		<nav>
+			<input type="checkbox" id="nav-toggle" />
+			<div class="logo">
+				<a href="">
+					<img src="image/Radhesh-Logo.webp" alt="Radhesh Logo" title="Radhesh Logo" />
+				</a>
+			</div>
+			<ul class="links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#work">About  Dr. Radhesh</a></li>
+				<li class="services-dropdown">
+					<a href="#about">Services </a>
+					<ul class="quick-links">
+						<li><a href="#">Upper Limb Surgery</a></li>
+						<li><a href="#">Orthopaedics & Sports Medicine</a></li>
+						<li><a href="#">Reconstructive Microsurgery</a></li>
+					</ul>
+				</li>
+				<li><a href="">Blog</a></li>
+				<li class="contact-btn btn"><a href="">Contact us</a></li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+		</nav>
+		<!-- NAV_BAR_SECTION END -->
+	</header>
+	<!-- Why choose us  section start -->
+	<section class="General-Orthopedics ">
+		<div class="container">
+			<div class="General-Orthopedics-main row">
+				<div class="General-Orthopedics-sub-1 col-lg-7">
+					<h2>Upper Limb Surgery 
+
+					</h2>
+					<p>Upper Limb Surgery – Upper limb surgery is a speciality surgical branch that encompasses surgeries of the Hand, wrist, elbow and shoulder. An upper limb surgeon is a specialist trained doctor with expertise in the treatment of upper limb disorders both surgically and by non-surgical treatment modalities to help you regain function, movement and improved quality of life.</p>
+				</div>
+				<div class="General-Orthopedics-sub col-lg-5">
+					<img src="image/General-Orthopedics-Trauma-1.avif" alt="" title="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why choose us  section end -->
+	<!-- Why choose us  section start -->
+	<section class="Why-choose-us ">
+		<div class="container">
+			<div class="Why-choose-us-main row">
+				<div class="why-choose-us-sub col-lg-5">
+					<img src="image/Why-choose-us-for-General-Orthopedics-Trauma.avif" alt="" title="">
+				</div>
+				<div class="why-choose-us-sub-1 col-lg-7">
+					<h3>Sports injuries of hand, wrist & shoulder</h3>
+					<p>Sports injuries of the hand are the most commonly encountered orthopaedic emergencies. Expert diagnosis and timely treatment can help you return to sports faster. </p>
+					<h3>Fracture treatment for upper extremity </h3>
+					<p>Fractures are injuries where there is a discontinuity in the bone. Majority of fractures occur because of trauma and some fractures because of weak bones. Timely diagnosis and treatment can help prevent occurrence of deformities, stiffness and pain. Not all fractures require surgery, some fractures heal beautifully in a well moulded plaster cast.</p>
+					<p class="service-btn"><a href="#" class="btn mt-3">Book a call</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why choose us  section end -->
+	 
+	<!-- service-detail-section start -->
+	<section class="service-detail-3">
+		<div class="container">
+			<div class="service-detail-3-main row">
+				<div class="service-detail-3-sub col-lg-6">
+					<h3>Carpal tunnel syndrome (CTS)</h3>
+					<p>Carpal tunnel syndrome is a condition caused by compression of nerve called the Median nerve of wrist. Feeling of pins and needles, weakness of grip and inability to hold on to objects for more than a few minutes are characteristics of CTS. Early detection and treatment can prevent you from going into severe form of disease. Read blog to know more about CTS and its treatment options.</p>
+					<h3>Dupuytren’s disease</h3>
+					<p>Dupuytren’s disease is condition of the hand causing progressive disability with severe forms of the disease causing inability to use the fingers of the hands especially the ring and little finger. Patients usually complain of inability to straighten their fingers, and painless nodules or cord like swellings on the palm side of hand. Early detection and treatment can help restore your finger movements and hand function.
+
+					</p>
+					<h3>De Quervain tenosynovitis</h3>
+					<p>Inflammation of the tendons on the outer aspect of the thumb leads to a condition called as Dequervain tenosynovitis. Pain on gripping, pinching and using phone (Blackberry thumb) are common symptoms. Mostly seen among the female populations more often during pregnancy. Most often, rest, splinting and activity restriction/ modification are adequate. In severe forms of Synovitis, steroid injections or even a minor surgical procedure will relieve your symptoms. Read blog to know more about Dequervain Tenosynovitis.
+
+					</p>
+				</div>
+				<div class="service-detali-sec-3 col-lg-6">
+					<img src="image/service-img.avif" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service-detail-section end -->
+	 	<!-- Why choose us  section start -->
+	<section class="Why-choose-us ">
+		<div class="container">
+			<div class="Why-choose-us-main row">
+				<div class="why-choose-us-sub col-lg-5">
+					<img src="image/Why-choose-us-for-General-Orthopedics-Trauma.avif" alt="" title="">
+				</div>
+				<div class="why-choose-us-sub-1 col-lg-7">
+					<h3>Trigger finger / trigger thumb</h3>
+					<p>A form of Synovitis affecting the tendons on the inner side of the hand. It causes difficulty in straightening or bending fingers and sometimes accompanied by a painful triggering. Early detection of symptoms such as pain and locking are important. Various treatment modalities are available depending upon the stage of disease. It is usually self limiting, provided patients follow regular exercises, activity limitation / modification and healthy lifestyle.</p>
+					<h3>Scaphoid fractures / AVN Scaphoid</h3>
+					<p>Scaphoid fractures are very common in sports injuries of wrist especially runners who fall on their wrist. Scaphoid fractures are notorious for having a poor healing potential. Accurate diagnosis, treatment and rehab by an expert can put you back into the game with no complications like  avascular necrosis of scaphoid, wrist arthritis, chronic wrist pain. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why choose us  section end -->
+	 	<!-- service-detail-section start -->
+	<section class="service-detail-3">
+		<div class="container">
+			<div class="service-detail-3-main row">
+				<div class="service-detail-3-sub col-lg-6">
+					<h3>Infections of hand </h3>
+					<p>Infections of the hand are common in children and the elderly. The cause of infection is varied and timely treatment is of essence to prevent debilitating consequences of poor infection control.</p>
+					<h3>Finger joint replacement surgery</h3>
+					<p>Like the knee and hip, finger joints too are prone to wear and tear. Albeit similar in properties and biomechanics, the finger joints are much smaller and require utmost precision, delicate instrumentation and exceptional surgical skill for patients to experience a new lease of life for their hands. </p>
+					<h3>Rheumatoid arthritis</h3>
+					<p>A form of blood borne arthritis that is a common affection among our Indian population. It affects all major joints of the body including the hands and wrist. It causes progressive deformity of the hands and wrist which later turn to be disabling. Timely identification of rheumatoid status and initiation of treatment can help limit the progression of disease and maintain a fairly good quality of life.
+
+					</p>
+				</div>
+				<div class="service-detali-sec-3 col-lg-6">
+					<img src="image/service-img.avif" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service-detail-section end -->
+	 	<!-- Why choose us  section start -->
+	<section class="Why-choose-us ">
+		<div class="container">
+			<div class="Why-choose-us-main row">
+				<div class="why-choose-us-sub col-lg-5">
+					<img src="image/Why-choose-us-for-General-Orthopedics-Trauma.avif" alt="" title="">
+				</div>
+				<div class="why-choose-us-sub-1 col-lg-7">
+					<h3>Congenital anomalies </h3>
+					<p>Some children maybe born with webbed hands / feet, missing fingers or duplication of fingers or toes, abnormal shaped limbs. Such children are special and require careful attention to detail in treatment. Expertise and thorough knowledge of paediatric anatomy can restore normalcy in most of these children. </p>
+					<h3>Nerve repair / Reconstruction</h3>
+					<p>Nerves are structures that help transmit the necessary electrical inputs to the muscles of the hand and fingers for their optimum and effortless functioning. Any injury or fracture can affect the functioning of these nerves and they need to be repaired or reconstructed based on the degree of injury.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why choose us  section end -->
+	 	 	<!-- Why choose us  section start -->
+	<section class="Why-choose-us ">
+		<div class="container">
+			<div class="Why-choose-us-main row">
+				<div class="why-choose-us-sub-1 col-lg-12">
+					<h3>Ligament repair / reconstruction </h3>
+					<p>Ligaments are cord like structures that link two bones especially across a joint to keep the joint stable during the arc of movement and rest. Any injury to these supporting structures can alter the mechanics of joint functioning resulting in pain and discomfort</p>
+					<h3>Thoracic outlet syndrome</h3>
+					<p>Thoracic outlet syndrome is a condition caused by compression of the nerves arising from the neck and its accompanying blood vessels. Thoracic outlet syndrome is commonly seen among individuals who require to do repeated overhead activities, sometimes it could be because of the presence of an extra cervical rib or due to the spasm of certain group of muscles around the junction of neck and shoulder (Scalene Muscles). It is a condition often missed due to the many overlapping symptoms of cervical disc and shoulder pathologies. Correct and detailed assessment can help identify this condition and preventive treatment can be started at the earliest.</p>
+					<h3>Tennis elbow / Golfer’s elbow</h3>
+					<p>A condition so common among the sports fraternity that at present, it is common condition in the household. Overuse of the forearm and wrist results in inflammation and micro tears in the muscle fibre that starts from the elbow resulting in pain, discomfort and at times disability. Activity modification, rest, physical therapy and occasional injection therapy are usually the treatment of choice for this condition with severe forms of disease requiring surgical treatment. </p>
+					<h3>Elbow fracture & instability </h3>
+					<p>Elbow fractures and instability is a common sporting injury often seen among Jiujitsu athletes, throwing athletes, tennis players to name a few. A thorough formal assessment of a player’s joint flexibility and playing posture can help prevent the occurrence of these injuries. If injured, expert diagnosis and timely treatment can ensure that the player returns to his / her pre-injury athletic performance. 
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why choose us  section end -->
+	<!-- FAQ section start -->
+	<section class="faq-section">
+		<div class="container">
+			<h3>Frequently Asked Questions</h3>
+			<div class="faqs-container" itemscope itemtype="https://schema.org/FAQPage">
+	
+				<div class="faq-singular active" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">01</span>
+						<span class="text" itemprop="name">What services do you offer?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">Dr Radhesh specializes in hand, wrist, elbow, and shoulder surgeries, including arthroscopy, tendon and nerve repair, joint replacement, and microvascular surgery.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">02</span>
+						<span class="text" itemprop="name">Do you treat sports injuries?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">Yes, Dr. Radhesh is extensively trained to care for sports injuries affecting the hand, wrist, and shoulder, helping athletes recover quickly and return to activity.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">03</span>
+						<span class="text" itemprop="name">Do you offer non-surgical treatments?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">Yes, not all conditions require surgery. Many can be managed with medications, splinting, physiotherapy, and injections.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">04</span>
+						<span class="text" itemprop="name">What types of fractures do you treat?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">I treat all types of upper limb fractures, from simple fractures requiring casts to complex ones needing surgical fixation.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">05</span>
+						<span class="text" itemprop="name">What is wrist arthroscopy, and do you perform it?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">Yes, wrist arthroscopy is a minimally invasive surgery used to diagnose and treat ligament injuries, cartilage damage, and wrist pain.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">06</span>
+						<span class="text" itemprop="name">Can you treat congenital hand deformities?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">Yes, I provide specialized treatment for congenital hand deformities to improve function and appearance.</div>
+					</div>
+				</div>
+	
+				<div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+					<div class="faq-question">
+						<span class="number">07</span>
+						<span class="text" itemprop="name">What reconstructive procedures do you offer for severe injuries?</span>
+						<div class="toggle-icon">+</div>
+					</div>
+					<div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">I perform replantation, tendon transfers, joint transfers, and skin flap surgeries to restore function after severe injuries.</div>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>	
+	<!-- FAQ section end -->
+	<!-- Healthcare Timing section start -->
+	<section class="healthcare" style="background-color: #fff;">
+		<div class="container">
+			<h2>Consulting Clinic</h2>
+			<p class="text-center healthcare-p"> Below is a list of healthcare centers with their addresses, contact details, and consultation timings to help you plan your visits conveniently. </p>
+			<div class="card-healthcare">
+				<!-- Card 1 -->
+				<div class="card">
+					<h4>Fostr Helathcare</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing"> Timing</h5>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Tuesday | Thursday </p>
+								<p> 04:30 PM - 06:30 PM</p>
+							</div>
+						</div>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Saturday</p>
+								<p> 10:00 AM - 04:00 PM</p>
+							</div>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Marathalli</p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+				<!-- Card 2 -->
+				<div class="card">
+					<h4>Aarogya Hastha Hospital</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing "> Timing</h5>
+						<div class="timing-div-p">
+							<p>Monday - Friday</p>
+							<p> 08:00 AM - 11:00 AM</p>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Kasavanhalli </p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+				<!-- Card 3 -->
+				<div class="card">
+					<h4>Fostr Healthcare</h4>
+					<div class="details details-1">
+						<h5><img src="image/Timing.webp" alt="Timing " title="Timing"> Timing</h5>
+						<div class="timing-div">
+							<div class="sub-tim p-tim-p">
+								<p>Monday - Friday</p>
+								<p> 11:30 AM - 02:00 PM | 03:30 PM - 09:00 PM</p>
+								<p> </p>
+							</div>
+						</div>
+					</div>
+					<div class="details">
+						<h5><img src="image/location.webp" alt="Location " title="Location"> Location</h5>
+						<p class="loca">Sarjapur Road</p>
+					</div>
+					<p class="service-btn"><a href="#" class="btn button">Book now <i class="fa-solid fa-arrow-right fa-rotate-300"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Healthcare Timing section end -->
+	<!-- book your medical start -->
+	<section class="book-you">
+		<div class="container">
+			<div class="main-book-div">
+				<div class="main-div-book">
+					<h2>Book an appointment </h2>
+					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
+					<div class="btn-div-book">
+						<div class="btn-div-sub">
+							<a><i class="fa-solid fa-phone"></i> Book Now</a>
+						</div>
+						<div class="btn-div-sub">
+							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+						</div>
+					</div>
+				</div>
+				<div class="book-img-div">
+					<img src="image/Book-now-doctor-img.avif" alt="Book" title="Book">
+				</div>
+			</div>
+			<!-- mob -->
+			<div class="main-book-div-mob">
+				<div class="main-div-book-mob">
+					<h2>Book an appointment </h2>
+					<p>Schedule a call or chat with us to explore the perfect solution tailored to your needs</p>
+					<div class="btn-div-book-mob">
+						<div class="btn-div-sub-mob">
+							<a class="nav-link--mob" href="#"><i class="fa-solid fa-phone" style="transform: translateX(-5px); "></i> Book Now</a>
+						</div>
+						<div class="btn-div-sub-mob">
+							<a><i class="fa-brands fa-whatsapp"></i> Chat with us</a>
+						</div>
+					</div>
+				</div>
+				<div class="book-img-div-mob">
+					<img src="image/Doctor-image.avif" alt="book" title="book">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- book your medical end -->
+	<!-- footer section -->
+	<footer class="footer-section">
+		<div class="container footer-container">
+			<div class="footer-content">
+				<div class="footer-row ">
+					<div class="footer-column footer-1 ">
+						<div class="footer-widget">
+							<div class="footer-text ">
+								<div class="footer-widget">
+									<h4 class="footer-heading">Services Offered</h4>
+									<ul class="quick-links">
+										<li><a href="#">Upper Limb Surgery </a></li>
+										<li><a href="#">Orthopaedics & Sports Medicine</a></li>
+										<li><a href="#">Reconstructive Microsurgery</a></li>
+										<!-- <li><a href="#">Joint Replacement surgeries of Hand & Wrist</a></li>
+                              <li><a href="#">Nerve Decompression & transfer surgeries</a></li>
+                              <li><a href="#">Tendon repairs & transfers</a></li>
+                              <li><a href="#">Replantation of amputated digits</a></li>
+                              <li><a href="">Thumb / Digit reconstructions and toe transfer</a></li>
+                              <li><a href="">Congenital hand differences</a></li> -->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-2 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">Contact Us</h4>
+							<div class="footer-location">
+								<div class="Email-div">
+									<i class="fa-solid fa-location-dot" style="color: #fff;"></i>
+									<h5>CONTACT US</h5>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices finibus odio ut rhoncus.</p>
+							</div>
+							<div class="footer-phone">
+								<div class="Email-div">
+									<i class="fa-solid fa-phone" style="color: #fff;"></i>
+									<h5>Call for Appointment</h5>
+								</div>
+								<a href="tel:+917676512807" class="tel">+91 7676512807</a>
+							</div>
+							<div class="footer-email">
+								<div class="Email-div">
+									<i class="fa-solid fa-envelope" style="color: #fff;"></i>
+									<h5>Email</h5>
+								</div>
+								<a href="mailto:radhesh.menonr@gmail.com">radhesh.menonr@gmail.com</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-3 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">Map</h4>
+							<div class="Map-div">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1107299619716!2d77.67311507454556!3d12.900600816432005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae132a0bbeb64b%3A0x626c13b98813a8a3!2zQUFST0dZQSBIQVNUSEEgSE9TUElUQUxTIOCyhuCysOCzi-Cyl-CzjeCyryDgsrngsrjgs43gsqQg4LK54LK-4LK44LON4LKq4LK_4LKf4LKy4LON4LK44LON!5e0!3m2!1sen!2sin!4v1737609744187!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="footer-column footer-4 ">
+						<div class="footer-widget">
+							<h4 class="footer-heading">fOLLOW US ON</h4>
+							<div class="social-icons">
+								<a href="https://facebook.com" target="_blank">
+									<img src="image/facebook-logu.webp" alt="Facebook" title="Facebook" />
+								</a>
+								<a href="https://www.practo.com/Bangalore/doctor/radhesh-r-menon-orthopedist" target="_blank">
+									<img src="image/Practo-img.avif" class="practo" alt="practo" title="practo" />
+								</a>
+								<a href="https://instagram.com" target="_blank">
+									<img src="image/instagram-logu.webp" alt="Instagram" title="Instagram" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright-section">
+		<p>Copyrights © 2024 All Rights Reserved</p>
+	</div>
+	<!-- <script type="text/javascript" src="js/jquery-3.6.4.slim.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+
+</html>
